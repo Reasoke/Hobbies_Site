@@ -1,0 +1,101 @@
+body {
+    background-color: #F4DFC2;
+}
+
+.header,
+.footer {
+    background: linear-gradient(#FACB8C, rgb(249, 191, 108));
+    text-align-last: center;
+}
+
+#logo {
+    width: 300px;
+    height: 150px;
+}
+
+#pics {
+    width: 300px;
+    height: 300px;
+}
+
+.centerText {
+    text-align-last: center;
+}
+
+.usefulInf {
+    font: italic 20px "Fira Sans", serif;
+    background-color: #fdd6ae;
+}
+
+#mainTable{
+    margin: 10px;
+}
+
+table{
+    padding: 10px;
+    border:1px, solid, black;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(104, 103, 103);
+}
+
+tr{
+    background-color: lightgray;
+}
+tr:hover{
+    background-color: rgb(122, 255, 222);
+}
+td:hover{
+    background-color: rgb(146, 204, 223);
+}
+
+.titleText {
+    color: brown;
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* border: 1px solid #3a3232; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #da7b00; */
+}
+
+.main-menu>li {
+    margin-right: -4px;
+    position: relative;
+}
+
+.main-menu a {
+    display: block;
+    margin-left: -1px;
+    padding: 8px 10px;
+    color: #bccdf1;
+    border: 1px solid #43372F;
+    background: #43372F;
+}
+
+.main-menu a:hover {
+    background: #f5f5f5;
+}
+
+.main-menu .sub-menu {
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #ffffff;
+}
+
+.main-menu .sub-menu a {
+    border: 1px solid #e5e5e5;
+    margin-bottom: -1px;
+}
+
+.main-menu>li:hover .sub-menu {
+    display: block;
+}
