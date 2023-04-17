@@ -40,6 +40,19 @@ body {
     text-align: center;
 }
 
+.block-header_elem-icon_mod-layout {
+    width: 64px;
+    height: 64px;  
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.block-header_elem-icon_mod-layout:hover {
+    width: 128px;
+    height: 128px;  
+}
+
 .block-main_elem-pics_mod-size {
     width: 300px;
     height: 300px;
@@ -64,6 +77,9 @@ table{
     width: 100%;
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(104, 103, 103);
+}
+table a{
+    color: #000000;
 }
 
 tr{
