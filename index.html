@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,41 +8,80 @@
     <title>Hobbies</title>
     <link href="style/style.css" rel="stylesheet">
     <link href="style/menuStyle.css" rel="stylesheet">
-    <link href="style/imageGalleryStyle.css" rel="stylesheet">
+    <link href="style/ChackBoxStyle.css" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
-        <div class="header" id="header">            
+        <div class="header" id="header">
         </div>
-        
+
         <main class="main">
             <section>
-                <p ><h1 class="centerText">Приветствуем на нашем сайте посвященному различным хобби! Начните изучать новое прямо сейчас!</h1></p>
+                <p>
+                <h1 class="centerText">Приветствуем на нашем сайте посвященному различным хобби! Начните изучать новое
+                    прямо сейчас!</h1>
+                </p>
 
                 <aside class="usefulInf">
-                    <p><b>Хо́бби</b>(от англ. hobby — увлечение, любимое дело) или увлече́ние — вид человеческой деятельности, которым занимаются на досуге, для наслаждения. Увлечение — то, чем человек любит и с радостью готов заниматься в своё свободное время. Увлечение является хорошим способом борьбы со стрессом, депрессией, злостью, гневом или яростью. Кроме того, увлечения зачастую помогают развить кругозор. Основная цель увлечений — помочь самореализоваться. Хобби делятся на 3 основных вида: производить вещи, коллекционировать вещи и изучать вещи.
-                    <small><b>© Wikipedia</b></small>
-                    </p>                    
+                    <p><b>Хо́бби</b>(от англ. hobby — увлечение, любимое дело) или увлече́ние — вид человеческой
+                        деятельности, которым занимаются на досуге, для наслаждения. Увлечение — то, чем человек любит и
+                        с радостью готов заниматься в своё свободное время. Увлечение является хорошим способом борьбы
+                        со стрессом, депрессией, злостью, гневом или яростью. Кроме того, увлечения зачастую помогают
+                        развить кругозор. Основная цель увлечений — помочь самореализоваться. Хобби делятся на 3
+                        основных вида: производить вещи, коллекционировать вещи и изучать вещи.
+                        <small><b>© Wikipedia</b></small>
+                    </p>
                 </aside>
 
-                <p ><h2 class="titleText">Надеемся что вы приятно и с пользой проведете время на нашем сайте!</h2></p>
+                <p>
+                <h2 class="titleText">Надеемся что вы приятно и с пользой проведете время на нашем сайте!</h2>
+                </p>
+            </section>
+
+            <section>                
+                <div>
+                    <h1>Что вы сделали для поднятия настроения?</h1>
+                    <label class="checkContainer">Познакомился с Шибой-Саном
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <span class="checkmark2"></span>
+                        <span class="checkmark2"></span>
+                    </label>
+                    <label class="checkContainer">Послушал музыку
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="checkContainer">Посмотрел веселое видео
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="checkContainer">Посмотрел второе видео, первое не помогло
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="checkContainer">Ничего не помогло - время GAME OVER
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
             </section>
 
             <section>
                 <p>
-                    <h2>Если в момент изучения нового хобби вы потерпели неудачу и пали духом вам поможет маскот нашего сайта - Шиба-Сан!</h2>
-                    <div >
-                        <img class="block-main_elem-pics_mod-size" src="pics/sh1.gif">
-                        <img class="block-main_elem-pics_mod-size" src="pics/sh2.gif">
-                    </div>
+                <h2>Если в момент изучения нового хобби вы потерпели неудачу и пали духом вам поможет маскот нашего
+                    сайта - Шиба-Сан!</h2>
+                <div>
+                    <img class="block-main_elem-pics_mod-size" src="pics/sh1.gif">
+                    <img class="block-main_elem-pics_mod-size" src="pics/sh2.gif">
+                </div>
                 </p>
+
             </section>
 
             <section>
                 <h4>Прослушайе веселую музыку:</h4>
-                <audio
-                    controls
-                    src="./media/main_theme.mp3">
+                <audio controls src="./media/main_theme.mp3">
                 </audio>
 
                 <h4>Просмотрите веселое видео:</h4>
@@ -52,15 +92,16 @@
 
             <section>
                 <p>
-                    <h2>Всё ещё чувствуете апатию? Тогда советуем посмотреть это видео:</h2>
-                    <iframe width="560" height="315" src="https://coub.com/embed/2y909j" frameborder="0"></iframe>
+                <h2>Всё ещё чувствуете апатию? Тогда советуем посмотреть это видео:</h2>
+                <iframe width="560" height="315" src="https://coub.com/embed/2y909j" frameborder="0"></iframe>
                 </p>
             </section>
 
             <section>
                 <p>
-                    <h2>Ну, а если ничего не помогло, то...:</h2>
-                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5dQFXTPqXSQ" title="YouTube video player" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+                <h2>Ну, а если ничего не помогло, то...:</h2>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5dQFXTPqXSQ"
+                    title="YouTube video player" frameborder="0" allow="autoplay" allowfullscreen></iframe>
                 </p>
             </section>
 
@@ -70,14 +111,15 @@
                     <li>Выберите то, чем вам кажется вы хотите заниматься.</li>
                     <li>Изучите материал по данному хобби на нашем сайте.</li>
                     <li>Наслаждайтесь новым хобби!</li>
-                </ol>            
-            </article> 
+                </ol>
+            </article>
         </main>
-         
+
         <footer class="footer" id="footer">
-        </footer>      
+        </footer>
     </div>
 
     <script src="js/main.js"></script>
 </body>
+
 </html>
