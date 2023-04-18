@@ -1,0 +1,33 @@
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-menu a {
+    display: block;
+    padding: 8px 10px;
+    color: #bccdf1;
+    background: #43372F;
+}
+
+.main-menu a:hover {
+    background: #666666;
+}
+
+.main-menu .sub-menu {
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #ffffff;
+}
+
+.main-menu>li:hover .sub-menu {
+    display: block;
+}

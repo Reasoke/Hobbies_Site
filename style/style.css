@@ -4,53 +4,54 @@ body {
     padding: 0;
 }
 
-.container{
+.container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
-    grid-template-areas: 
+    grid-template-areas:
         "header header header header header"
         "main main main main main"
         "footer footer footer footer footer";
 }
 
-.header{
+.header {
     grid-area: header;
 }
 
 
-.main{
+.main {
     grid-area: main;
 }
 
 .footer {
     grid-area: footer;
-    
+
 }
 
 .header,
 .footer {
     background: linear-gradient(#e7927f, #f32e02);
     text-align-last: center;
-}  
+}
 
 .block-header_elem-logo_mod-layout {
     width: 300px;
-    height: 150px;  
+    height: 150px;
     text-align: center;
 }
 
 .block-header_elem-icon_mod-layout {
     width: 64px;
-    height: 64px;  
+    height: 64px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
 }
+
 .block-header_elem-icon_mod-layout:hover {
     width: 128px;
-    height: 128px;  
+    height: 128px;
 }
 
 .block-main_elem-pics_mod-size {
@@ -58,7 +59,7 @@ body {
     height: 300px;
 }
 
-.usefulInf{
+.usefulInf {
     font: italic 20px "Fira Sans", serif;
     background-color: #fdd6ae;
 }
@@ -67,64 +68,34 @@ body {
     text-align-last: center;
 }
 
-.block-main_elem-mainTable_mod-padding{
+.block-main_elem-mainTable_mod-padding {
     padding: 10px;
 }
 
-table{
+table {
     padding: 10px;
-    border:1px, solid, black;
+    border: 1px, solid, black;
     width: 100%;
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(104, 103, 103);
 }
-table a{
+
+table a {
     color: #000000;
 }
 
-tr{
+tr {
     background-color: lightgray;
 }
-tr:hover{
+
+tr:hover {
     background-color: rgb(122, 255, 222);
 }
-td:hover{
+
+td:hover {
     background-color: rgb(146, 204, 223);
 }
 
 .titleText {
     color: brown;
-}
-
-.main-menu {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.main-menu a {
-    display: block;
-    padding: 8px 10px;
-    color: #bccdf1;
-    background: #43372F;
-}
-
-.main-menu a:hover {
-    background: #666666;
-}
-
-.main-menu .sub-menu {
-    display: none;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    background: #ffffff;
-}
-
-.main-menu>li:hover .sub-menu {
-    display: block;
 }

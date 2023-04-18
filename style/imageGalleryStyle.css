@@ -1,0 +1,53 @@
+.imageGallery {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imageGallery img {
+    height: 200px;
+    width: 200px;
+    transition: 0.4s;
+}
+
+.imageBox {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    opacity: 0.0;
+}
+
+.transparentBox {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.imageBox:hover img {
+    transform: scale(1.1);
+}
+
+.imageBox:hover .transparentBox {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imageBox:hover .caption {
+    opacity: 1.0; /* непрозрачность */
+}
+
+.imageBox:hover {
+    cursor: pointer;
+}
