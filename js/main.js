@@ -8,5 +8,5 @@ function loadFile(filePath, elementName) {
     request.send(null);
 }
 
-loadFile("components/header.html", "header");
-loadFile("components/footer.html", "footer");
+loadFile("/components/header.html", "header");
+loadFile("/components/footer.html", "footer");

@@ -33,6 +33,26 @@ body {
     background: linear-gradient(#e7927f, #f32e02);
     text-align-last: center;
 }
+#blackSquare {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 206px;
+    right:0px;
+    z-index: 100;
+    background-color: #000000;
+}
+
+/* #colorList {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    z-index: 100;
+} */
+
+
 
 .block-header_elem-logo_mod-layout {
     width: 300px;
